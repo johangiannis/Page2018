@@ -15,6 +15,7 @@ h1.heading-2 {
 
 h2.heading-3 {
   color: #565656;
+  font-weight: 300;
   font-size: 1.25em;
   font-family: 'Roboto', cursive;
 }
@@ -31,6 +32,7 @@ ul.unorder-list.unordered-list-1 {
 
 span.text-element.text-1 {
   color: #565656;
+  font-weight: 300;
   font-size: .9em;
   font-family: 'Roboto', cursive;
 }
@@ -57,7 +59,7 @@ ul.link-list.medium-horizontal.menu.simple.vertical {
 
 a.link-button.button {
   margin-right: 2em;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #61afc0;
   font-size: 1em;
   font-family: 'Roboto', cursive;
@@ -96,6 +98,7 @@ body > .row > [class*='small-'].column-8 {
 }
 
 body > .row > [class*='small-'].footer {
+  padding-top: 2em;
   padding-right: 4em;
   padding-left: 4em;
 }
@@ -183,12 +186,29 @@ body > .row > [class*='small-'].column-4 {
 }
 
 .subgrid > .row > [class*='small-'].subgrid-column-2 {
-  padding-top: 1em;
+  padding-top: 0;
   padding-right: 2em;
   padding-left: 2em;
 }
 
 .subgrid > .row > [class*='small-'].subgrid-column-4 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.subgrid > .row > [class*='small-'].subgrid-column-5 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.subgrid > .row > [class*='small-'].subgrid-column-6 {
+  padding-top: 1em;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.subgrid > .row > [class*='small-'].subgrid-column-7 {
+  padding-top: 1em;
   padding-right: 0;
   padding-left: 0;
 }
@@ -288,7 +308,7 @@ div.responsive-picture.picture-1 {
 }
 
 a.link-button-glyph.btn.button.linkedin.social {
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #1583dc;
 }
 
@@ -402,7 +422,7 @@ li.list-item-link.menu-link:hover > a {
 
   a.link-button.button {
     margin-right: 2em;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #61afc0;
     color: #fff;
     font-size: 1em;
@@ -605,6 +625,18 @@ li.list-item-link.menu-link:hover > a {
     background-color: #323232;
   }
 
+  .subgrid > .row > [class*='small-'].subgrid-column-6 {
+    padding-top: 1em;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-7 {
+    padding-top: 1em;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
   .container.top-bar-title {
     position: static;
     width: auto;
@@ -675,7 +707,7 @@ li.list-item-link.menu-link:hover > a {
   }
 
   a.link-button-glyph.btn.button.linkedin.social {
-    border-radius: 20px;
+    border-radius: 5px;
   }
 }
 
@@ -691,7 +723,7 @@ li.list-item-link.menu-link:hover > a {
   a.link-button.button {
     margin-top: 0;
     margin-right: 2em;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #61afc0;
     color: #fff;
     font-size: 1em;
