@@ -7,6 +7,12 @@ h1.heading-1 {
   font-family: 'Roboto', cursive;
 }
 
+h1.heading-2 {
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: 'Roboto', cursive;
+}
+
 h2.heading-3 {
   color: #565656;
   font-size: 1.25em;
@@ -84,6 +90,7 @@ body > .row > [class*='small-'].column-2 {
 }
 
 body > .row > [class*='small-'].column-8 {
+  padding-top: 2em;
   padding-right: 4em;
   padding-left: 4em;
 }
@@ -91,6 +98,68 @@ body > .row > [class*='small-'].column-8 {
 body > .row > [class*='small-'].footer {
   padding-right: 4em;
   padding-left: 4em;
+}
+
+body > .row > [class*='small-'].column-5 {
+  padding-right: 0;
+  padding-left: 0;
+  min-height: 12em;
+  background-image: url('../webpage2018/sundownboatsmall.jpeg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(.34);
+          filter: grayscale(.34);
+
+  background-blend-mode: normal;
+}
+
+body > .row > [class*='small-'].column-6 {
+  padding-right: .625rem;
+  min-height: 12em;
+  background-image: url('../webpage2018/falltreesmedium.jpeg');
+  background-attachment: scroll;
+  background-position: right center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(.3) brightness(1.18);
+          filter: grayscale(.3) brightness(1.18);
+
+  background-blend-mode: normal;
+}
+
+body > .row > [class*='small-'].column-3 {
+  padding-right: 0;
+  padding-left: 0;
+  min-height: 12em;
+  background-image: url('../webpage2018/summercardsmedium.jpeg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+body > .row > [class*='small-'].column-4 {
+  padding-right: .625rem;
+  min-height: 12em;
+  background-image: url('../webpage2018/imacmockupmedium.jpeg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-blend-mode: normal;
 }
 
 .subgrid > .row.subgrid-row-3 {
