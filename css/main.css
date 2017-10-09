@@ -13,6 +13,13 @@ h1.heading-2 {
   font-family: 'Roboto', cursive;
 }
 
+h1.hero-header.hero-header-1 {
+  color: #f0f6ff;
+  text-align: center;
+  font-weight: 300;
+  font-family: 'Roboto', cursive;
+}
+
 h2.heading-3 {
   color: #565656;
   font-weight: 300;
@@ -61,6 +68,13 @@ ul.link-list.menu {
 ul.link-list.medium-horizontal.menu.simple.vertical {
   position: relative;
   float: none;
+}
+
+/* Common Elements */
+
+.placeholder-hero.hero-unit-1 {
+  padding-top: 2em;
+  background-color: transparent;
 }
 
 /* Interaction Elements */
@@ -323,6 +337,13 @@ a.link-button-glyph.btn.button.linkedin.social {
   background-color: #1583dc;
 }
 
+p.hero-tagline.hero-tagline-1 {
+  color: #f0f6ff;
+  font-weight: 300;
+  font-size: 1em;
+  font-family: 'Roboto', cursive;
+}
+
 li.list-item-link.menu-link:hover > a {
   color: #c7c7c7;
 }
@@ -341,6 +362,14 @@ li.list-item-link.menu-link:hover > a {
     color: #565656;
     font-weight: 300;
     font-size: 1.4em;
+    font-family: 'Roboto', cursive;
+  }
+
+  h1.hero-header.hero-header-1 {
+    color: #f0f6ff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3em;
     font-family: 'Roboto', cursive;
   }
 
@@ -427,6 +456,14 @@ li.list-item-link.menu-link:hover > a {
     -webkit-justify-content: flex-start;
        -moz-box-pack: start;
             justify-content: flex-start;
+  }
+
+  /* Common Elements */
+
+  .placeholder-hero.hero-unit-1 {
+    padding-top: 4em;
+    padding-left: 0;
+    background-color: transparent;
   }
 
   /* Interaction Elements */
@@ -719,6 +756,14 @@ li.list-item-link.menu-link:hover > a {
 
   a.link-button-glyph.btn.button.linkedin.social {
     border-radius: 5px;
+  }
+
+  p.hero-tagline.hero-tagline-1 {
+    color: #f0f6ff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    font-family: 'Roboto', cursive;
   }
 }
 
