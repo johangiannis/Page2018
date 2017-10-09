@@ -50,7 +50,7 @@ a.link-text.topbar-responsive-logo {
   vertical-align: middle;
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-size: 1em;
+  font-size: .8em;
   font-family: 'Raleway', cursive;
 }
 
@@ -111,39 +111,6 @@ body > .row > [class*='small-'].footer {
   padding-left: 2em;
 }
 
-body > .row > [class*='small-'].column-5 {
-  padding-right: 0;
-  padding-left: 0;
-  min-height: 12em;
-  background-image: url('../webpage2018/sundownboatsmall.jpeg');
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(.34);
-          filter: grayscale(.34);
-
-  background-blend-mode: normal;
-}
-
-body > .row > [class*='small-'].column-6 {
-  padding-right: .625rem;
-  min-height: 12em;
-  background-image: url('../webpage2018/falltreesmedium.jpeg');
-  background-attachment: scroll;
-  background-position: right center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(.3) brightness(1.18);
-          filter: grayscale(.3) brightness(1.18);
-
-  background-blend-mode: normal;
-}
-
 body > .row > [class*='small-'].column-3 {
   padding-right: 0;
   padding-left: 0;
@@ -169,6 +136,39 @@ body > .row > [class*='small-'].column-4 {
   background-origin: padding-box;
   background-size: cover;
   background-repeat: no-repeat;
+
+  background-blend-mode: normal;
+}
+
+body > .row > [class*='small-'].column-6 {
+  padding-right: .625rem;
+  min-height: 12em;
+  background-image: url('../webpage2018/falltreesmedium.jpeg');
+  background-attachment: scroll;
+  background-position: right center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(.3) brightness(1.18);
+          filter: grayscale(.3) brightness(1.18);
+
+  background-blend-mode: normal;
+}
+
+body > .row > [class*='small-'].column-5 {
+  padding-right: 0;
+  padding-left: 0;
+  min-height: 12em;
+  background-image: url('../webpage2018/sundownboatsmall.jpeg');
+  background-attachment: scroll;
+  background-position: center center;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-filter: grayscale(.34);
+          filter: grayscale(.34);
 
   background-blend-mode: normal;
 }
@@ -274,7 +274,7 @@ span.glyph.menu-icon-toggle {
 
 li.list-item-link.menu-link > a {
   color: #fefefe;
-  font-size: 1em;
+  font-size: .8em;
   font-family: 'Raleway', cursive;
 }
 
@@ -378,7 +378,7 @@ li.list-item-link.menu-link:hover > a {
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
-    font-size: 1em;
+    font-size: .8em;
     font-family: 'Raleway', cursive;
   }
 
@@ -455,7 +455,7 @@ li.list-item-link.menu-link:hover > a {
     display:         flex;
     -ms-flex-pack: justify;
     -ms-flex-align: center;
-    padding: .5rem 3rem;
+    padding: 1em 5em;
 
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -540,21 +540,22 @@ li.list-item-link.menu-link:hover > a {
     max-width: none;
   }
 
-  body > .row > [class*='small-'].column-5 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/sundownboatsmall.jpeg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-filter: grayscale(.34);
-            filter: grayscale(.34);
+  body > .row > [class*='small-'].column-8 {
+    padding-right: 7em;
+    padding-left: 7em;
+  }
 
-    background-blend-mode: normal;
+  body > .row.row-9 {
+    max-width: none;
+  }
+
+  body > .row.row-3 {
+    max-width: none;
+  }
+
+  body > .row > [class*='small-'].footer {
+    padding: 2em 7em;
+    background-color: #f0f6ff;
   }
 
   body > .row > [class*='small-'].column-6 {
@@ -574,22 +575,21 @@ li.list-item-link.menu-link:hover > a {
     background-blend-mode: normal;
   }
 
-  body > .row > [class*='small-'].column-8 {
-    padding-right: 7em;
-    padding-left: 7em;
-  }
+  body > .row > [class*='small-'].column-5 {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 24em;
+    background-image: url('../webpage2018/sundownboatsmall.jpeg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-filter: grayscale(.34);
+            filter: grayscale(.34);
 
-  body > .row.row-9 {
-    max-width: none;
-  }
-
-  body > .row.row-3 {
-    max-width: none;
-  }
-
-  body > .row > [class*='small-'].footer {
-    padding: 2em 7em;
-    background-color: #f0f6ff;
+    background-blend-mode: normal;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
@@ -683,7 +683,7 @@ li.list-item-link.menu-link:hover > a {
   }
 
   li.list-item-link.menu-link > a {
-    font-size: 1em;
+    font-size: .8em;
     font-family: 'Raleway', cursive;
   }
 
@@ -754,23 +754,15 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 13em;
   }
 
-  body > .row.row-7 {
-    max-width: none;
+  body > .row > [class*='small-'].column-8 {
+    padding-right: 13em;
+    padding-bottom: 2em;
+    padding-left: 13em;
   }
 
-  body > .row > [class*='small-'].column-5 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/sundownboatsmall.jpeg');
-    background-attachment: scroll;
-    background-position: center 30%;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
+  body > .row > [class*='small-'].footer {
+    padding: 2em 13em;
+    background-color: #f0f6ff;
   }
 
   body > .row > [class*='small-'].column-6 {
@@ -788,15 +780,23 @@ li.list-item-link.menu-link:hover > a {
     background-blend-mode: normal;
   }
 
-  body > .row > [class*='small-'].column-8 {
-    padding-right: 13em;
-    padding-bottom: 2em;
-    padding-left: 13em;
+  body > .row > [class*='small-'].column-5 {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 24em;
+    background-image: url('../webpage2018/sundownboatsmall.jpeg');
+    background-attachment: scroll;
+    background-position: center 30%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
   }
 
-  body > .row > [class*='small-'].footer {
-    padding: 2em 13em;
-    background-color: #f0f6ff;
+  body > .row.row-7 {
+    max-width: none;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
