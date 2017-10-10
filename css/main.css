@@ -68,6 +68,7 @@ ul.link-list.menu {
 ul.link-list.medium-horizontal.menu.simple.vertical {
   position: relative;
   float: none;
+  background-color: #161616;
 }
 
 /* Common Elements */
@@ -185,6 +186,14 @@ body > .row > [class*='small-'].column-5 {
           filter: grayscale(.34);
 
   background-blend-mode: normal;
+}
+
+body > .row > [class*='small-']#grafiskherobild {
+  background-image: url('../webpage2018/grafiskhero.jpeg');
+}
+
+body > .row > [class*='small-'].top-bar.top-bar-responsive {
+  background-color: #161616;
 }
 
 .subgrid > .row.subgrid-row-3 {
@@ -339,6 +348,7 @@ a.link-button-glyph.btn.button.linkedin.social {
 
 p.hero-tagline.hero-tagline-1 {
   color: #f0f6ff;
+  text-align: center;
   font-weight: 300;
   font-size: 1em;
   font-family: 'Roboto', cursive;
@@ -371,6 +381,8 @@ li.list-item-link.menu-link:hover > a {
     font-weight: 300;
     font-size: 3em;
     font-family: 'Roboto', cursive;
+
+    mix-blend-mode: normal;
   }
 
   h2.heading-3 {
@@ -444,6 +456,7 @@ li.list-item-link.menu-link:hover > a {
   ul.link-list.medium-horizontal.menu.simple.vertical {
     -ms-flex-pack: start;
     -ms-flex-align: center;
+    background-color: #161616;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -492,7 +505,8 @@ li.list-item-link.menu-link:hover > a {
     display:         flex;
     -ms-flex-pack: justify;
     -ms-flex-align: center;
-    padding: 1em 5em;
+    padding: 1em 7em;
+    background-color: #161616;
 
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -512,7 +526,7 @@ li.list-item-link.menu-link:hover > a {
   }
 
   body > .row > [class*='small-'].column-1 {
-    min-height: 22em;
+    min-height: 23em;
     background-image: url('../webpage2018/pic01.jpg');
     background-attachment: scroll;
     background-position: center center;
@@ -520,6 +534,8 @@ li.list-item-link.menu-link:hover > a {
     background-origin: padding-box;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
 
     background-blend-mode: normal;
   }
@@ -627,6 +643,10 @@ li.list-item-link.menu-link:hover > a {
             filter: grayscale(.34);
 
     background-blend-mode: normal;
+  }
+
+  body > .row > [class*='small-']#grafiskherobild {
+    background-image: url('../webpage2018/grafiskhero.jpeg');
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
@@ -842,6 +862,17 @@ li.list-item-link.menu-link:hover > a {
 
   body > .row.row-7 {
     max-width: none;
+  }
+
+  body > .row > [class*='small-']#grafiskherobild {
+    background-position: center top;
+    background-size: cover;
+  }
+
+  body > .row > [class*='small-'].top-bar.top-bar-responsive {
+    padding-right: 6em;
+    padding-left: 6em;
+    background-color: #161616;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {

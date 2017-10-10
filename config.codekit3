@@ -27,6 +27,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/grafiskformgivning.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/grafiskformgivning.html",
+		"oF": 0
+		},
 	"\/img\/picture.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -52,6 +58,16 @@
 		"iS": 76006,
 		"oA": 0,
 		"oAP": "\/webpage2018\/falltreesmedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/webpage2018\/grafiskhero.jpeg": {
+		"ft": 16384,
+		"iS": 340622,
+		"oA": 0,
+		"oAP": "\/webpage2018\/grafiskhero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
