@@ -27,6 +27,34 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/fonts\/coffeecup-font-icons.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/coffeecup-font-icons.eot",
+		"oF": 0
+		},
+	"\/fonts\/coffeecup-font-icons.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/coffeecup-font-icons.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/coffeecup-font-icons.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/coffeecup-font-icons.ttf",
+		"oF": 0
+		},
+	"\/fonts\/coffeecup-font-icons.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts\/coffeecup-font-icons.woff",
+		"oF": 0
+		},
 	"\/grafiskformgivning.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -42,6 +70,291 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/js\/core.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/foundation.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/foundation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/foundation.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/foundation.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/jquery.min.map",
+		"oF": 0
+		},
+	"\/js\/jquery.slim.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.slim-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.slim.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.slim.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.slim.min.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/js\/jquery.slim.min.map",
+		"oF": 0
+		},
+	"\/js\/npm.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/npm-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/outofview.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/outofview-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/picturefill.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/picturefill-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/picturefill.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/picturefill.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/what-input.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/what-input-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/what-input.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/what-input.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/socialicons\/webicon-aboutme.png": {
+		"ft": 32768,
+		"iS": 794,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-aboutme.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-facebook.png": {
+		"ft": 32768,
+		"iS": 1422,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-flickr.png": {
+		"ft": 32768,
+		"iS": 1882,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-flickr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-foursquare.png": {
+		"ft": 32768,
+		"iS": 801,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-foursquare.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-goodreads.png": {
+		"ft": 32768,
+		"iS": 1142,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-goodreads.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-googleplus.png": {
+		"ft": 32768,
+		"iS": 2536,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-googleplus.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-instagram.png": {
+		"ft": 32768,
+		"iS": 2273,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-instagram.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-linkedin.png": {
+		"ft": 32768,
+		"iS": 1786,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-linkedin.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-pinterest.png": {
+		"ft": 32768,
+		"iS": 2555,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-pinterest.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-twitter.png": {
+		"ft": 32768,
+		"iS": 2313,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-vimeo.png": {
+		"ft": 32768,
+		"iS": 2397,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-vimeo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-youtube.png": {
+		"ft": 32768,
+		"iS": 1919,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-youtube.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/socialicons\/webicon-zgeneric.png": {
+		"ft": 32768,
+		"iS": 2033,
+		"oA": 0,
+		"oAP": "\/socialicons\/webicon-zgeneric.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/webpage2018\/falltreesmedium.jpeg": {
 		"ft": 16384,
