@@ -285,8 +285,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-aboutme.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -296,8 +296,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-facebook.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -307,8 +307,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-flickr.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -318,8 +318,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-foursquare.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -329,8 +329,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-goodreads.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -340,8 +340,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-googleplus.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -351,8 +351,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-instagram.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -362,8 +362,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-linkedin.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -373,8 +373,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-pinterest.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -384,8 +384,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-twitter.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -395,8 +395,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-vimeo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -406,8 +406,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-youtube.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -417,8 +417,8 @@
 		"oA": 0,
 		"oAP": "\/socialicons\/webicon-zgeneric.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -449,7 +449,7 @@
 		"oAP": "\/webpage2018\/grafiskhero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/webpage2018\/imacmockupmedium.jpeg": {
@@ -543,7 +543,7 @@
 	"displayValue": "Page2018",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-trap",
-	"lastBuiltDate": 528646173
+	"lastBuiltDate": 529756109
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
