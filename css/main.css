@@ -729,9 +729,9 @@ li.list-item-link.menu-link:hover > a {
 
   h1.heading-1 {
     font-size: 35px;
-    -webkit-transform: scaleX(1) perspective(0px) translateX(-8px);
-       -moz-transform: scaleX(1) perspective(0px) translateX(-8px);
-            transform: scaleX(1) perspective(0px) translateX(-8px);
+    -webkit-transform: scaleX(1) perspective(0px) translateX(0px);
+       -moz-transform: scaleX(1) perspective(0px) translateX(0px);
+            transform: scaleX(1) perspective(0px) translateX(0px);
   }
 
   p.paragraph.paragraph-1 {
