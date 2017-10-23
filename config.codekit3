@@ -31,16 +31,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/foundation.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/foundation-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/foundation.min-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -48,16 +38,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/foundation.min-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/foundation.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/foundation.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -71,16 +51,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/wireframe-theme-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -91,16 +61,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/css\/wireframe-theme.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/wireframe-theme-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/wireframe-theme.min-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -108,16 +68,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/wireframe-theme.min-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/wireframe-theme.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/wireframe-theme.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -149,12 +99,6 @@
 		"oAP": "\/fonts\/coffeecup-font-icons.woff",
 		"oF": 0
 		},
-	"\/grafiskformgivning.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/grafiskformgivning.html",
-		"oF": 0
-		},
 	"\/img\/picture.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -164,12 +108,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
 		},
 	"\/js\/core-min.js": {
 		"ft": 64,
@@ -697,7 +635,7 @@
 	"displayValue": "Page2018",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-trap",
-	"lastBuiltDate": 529756109
+	"lastBuiltDate": 530471882
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,

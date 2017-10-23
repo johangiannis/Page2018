@@ -101,35 +101,6 @@ body > .row > [class*='small-'].column-8 {
   padding-left: 2em;
 }
 
-body > .row > [class*='small-'].column-3 {
-  padding-right: 0;
-  padding-left: 0;
-  min-height: 12em;
-  background-image: url('../webpage2018/summercardsmedium.jpeg');
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  background-blend-mode: normal;
-}
-
-body > .row > [class*='small-'].column-4 {
-  padding-right: .625rem;
-  min-height: 12em;
-  background-image: url('../webpage2018/imacmockupmedium.jpeg');
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  background-blend-mode: normal;
-}
-
 body > .row > [class*='small-'].column-6 {
   padding-right: .625rem;
   min-height: 12em;
@@ -346,10 +317,24 @@ li.list-item-link.menu-link:hover > a {
     mix-blend-mode: normal;
   }
 
+  h1.heading-3 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 2em;
+    font-family: 'Roboto', cursive;
+  }
+
   p.paragraph.paragraph-1 {
     color: #565656;
     font-weight: 300;
     font-size: 1.1em;
+    font-family: 'Roboto', cursive;
+  }
+
+  p.paragraph.paragraph-2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 1em;
     font-family: 'Roboto', cursive;
   }
 
@@ -468,40 +453,6 @@ li.list-item-link.menu-link:hover > a {
     min-height: 20em;
   }
 
-  body > .row.row-4 {
-    max-width: none;
-  }
-
-  body > .row > [class*='small-'].column-3 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/summercardsmedium.jpeg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
-  body > .row > [class*='small-'].column-4 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/imacmockupmedium.jpeg');
-    background-attachment: scroll;
-    background-position: 20% center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
   body > .row.row-5 {
     max-width: none;
   }
@@ -590,6 +541,15 @@ li.list-item-link.menu-link:hover > a {
             align-items: center;
   }
 
+  body > .row.row-8 {
+    max-width: none;
+  }
+
+  body > .row > [class*='small-'].column-7 {
+    padding-right: 7em;
+    padding-left: 7em;
+  }
+
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
     padding: 1em 2rem;
     background-color: #323232;
@@ -646,6 +606,22 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 0;
   }
 
+  .subgrid > .row > [class*='small-'].subgrid-column-8 {
+    padding-top: 0;
+    padding-right: .9375rem;
+    padding-left: 0;
+    min-height: 18em;
+    background-image: url('../webpage2018/airplane.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
   .container.container-1 {
     margin-top: 1em;
     margin-right: -.625em;
@@ -673,6 +649,11 @@ li.list-item-link.menu-link:hover > a {
 
   .container.top-bar-right {
     max-width: none;
+  }
+
+  .container.container-2 {
+    margin-top: 1em;
+    background-color: rgba(0, 0, 0, .29);
   }
 
   li.list-item.list-item-1 {
@@ -734,11 +715,36 @@ li.list-item-link.menu-link:hover > a {
             transform: scaleX(1) perspective(0px) translateX(0px);
   }
 
+  h1.heading-3 {
+    margin-top: .3em;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 20px;
+    background-color: transparent;
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+    font-size: 2.5em;
+    font-family: 'Roboto', cursive;
+  }
+
   p.paragraph.paragraph-1 {
     -webkit-transform: translateX(0px);
        -moz-transform: translateX(0px);
          -o-transform: translateX(0px);
             transform: translateX(0px);
+  }
+
+  p.paragraph.paragraph-2 {
+    margin-bottom: 1em;
+    margin-left: 0;
+    padding-bottom: .2em;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.2em;
+    font-family: 'Roboto', cursive;
   }
 
   /* Interaction Elements */
@@ -817,6 +823,19 @@ li.list-item-link.menu-link:hover > a {
     background-color: #161616;
   }
 
+  body > .row > [class*='small-'].column-7 {
+    padding: 2em 13em;
+  }
+
+  body > .row.row-4 {
+    max-width: none;
+  }
+
+  body > .row > [class*='small-'].column-3 {
+    padding-right: 13em;
+    padding-left: 13em;
+  }
+
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
     padding-top: 1em;
     padding-left: 1rem;
@@ -831,11 +850,96 @@ li.list-item-link.menu-link:hover > a {
     background-color: transparent;
   }
 
+  .subgrid > .row > [class*='small-'].subgrid-column-8 {
+    padding-top: 1em;
+    padding-right: 0;
+    padding-left: 4em;
+    min-height: 22em;
+    background-image: url('../webpage2018/airplane.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition-duration: .2s;
+       -moz-transition-duration: .2s;
+         -o-transition-duration: .2s;
+            transition-duration: .2s;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-11 {
+    padding-top: 1em;
+    padding-right: 4em;
+    padding-left: 0;
+    min-height: 22em;
+    background-image: url('../webpage2018/summercardsmedium.jpeg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-12 {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 22em;
+    background-image: url('../webpage2018/imacmockupmedium.jpeg');
+    background-attachment: scroll;
+    background-position: left center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-8:hover {
+    margin-bottom: 0;
+    background-attachment: scroll;
+    background-size: cover;
+    -webkit-transition-timing-function: ease-in;
+       -moz-transition-timing-function: ease-in;
+         -o-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+    -webkit-transition-duration: .4s;
+       -moz-transition-duration: .4s;
+         -o-transition-duration: .4s;
+            transition-duration: .4s;
+  }
+
   .container.container-1 {
     margin-top: 1em;
     margin-right: -.625em;
     margin-left: -.625em;
     padding-top: 1em;
+  }
+
+  .container.container-2 {
+    float: none;
+    margin-top: 2em;
+    padding-top: .2em;
+    background-color: rgba(0, 0, 0, .29);
+
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0;
+       -moz-box-flex: 0;
+        -ms-flex: 0 0;
+            flex: 0 0;
+  }
+
+  .container.container-4 {
+    margin-top: 2em;
+    padding-top: .2em;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, .29);
   }
 
   div.responsive-picture.picture-1 {
