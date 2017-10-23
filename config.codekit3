@@ -418,9 +418,9 @@
 		"oA": 0,
 		"oAP": "\/webpage2018\/airplane.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
+		"q": 90
 		},
 	"\/webpage2018\/falltreesmedium.jpeg": {
 		"ft": 16384,
@@ -450,7 +450,7 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/webpage2018\/karlstadview.jpeg": {
 		"ft": 16384,
@@ -468,9 +468,9 @@
 		"oA": 0,
 		"oAP": "\/webpage2018\/pic01.jpg",
 		"oF": 0,
-		"oIPL": 0,
+		"oIPL": 1,
 		"opt": 1,
-		"q": 100
+		"q": 80
 		},
 	"\/webpage2018\/profilepic.png": {
 		"ft": 32768,
@@ -513,7 +513,7 @@
 	"displayValue": "Page2018",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-trap",
-	"lastBuiltDate": 530472083
+	"lastBuiltDate": 530473095
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,

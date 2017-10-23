@@ -318,6 +318,7 @@ li.list-item-link.menu-link:hover > a {
   }
 
   h1.heading-3 {
+    margin-top: .1em;
     color: #fff;
     font-weight: 300;
     font-size: 2em;
@@ -332,6 +333,7 @@ li.list-item-link.menu-link:hover > a {
   }
 
   p.paragraph.paragraph-2 {
+    padding-bottom: .5em;
     color: #fff;
     font-weight: 300;
     font-size: 1em;
@@ -550,9 +552,8 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 7em;
   }
 
-  body > .row > [class*='small-'].column-9 {
-    padding-right: 7em;
-    padding-left: 7em;
+  body > .row > [class*='small-'].column-3 {
+    padding: 2em 7em;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
@@ -611,32 +612,42 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 0;
   }
 
-  .subgrid > .row > [class*='small-'].subgrid-column-14 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 14em;
-    background-image: url('../webpage2018/summercardsmedium.jpeg');
-    background-attachment: scroll;
-    background-position: left top;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto auto;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
-  .subgrid > .row.subgrid-row-1 {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
   .subgrid > .row > [class*='small-'].subgrid-column-8 {
     padding-top: 0;
     padding-right: .9375rem;
     padding-left: 0;
     min-height: 18em;
     background-image: url('../webpage2018/airplane.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-12 {
+    padding-right: 0;
+    padding-left: 2em;
+    min-height: 18em;
+    background-image: url('../webpage2018/summercardsmedium.jpeg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-15 {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 18em;
+    background-image: url('../webpage2018/imacmockupmedium.jpeg');
     background-attachment: scroll;
     background-position: center center;
     background-clip: border-box;
@@ -677,7 +688,9 @@ li.list-item-link.menu-link:hover > a {
   }
 
   .container.container-2 {
-    margin-top: 1em;
+    margin-top: 3em;
+    padding-top: .5em;
+    padding-left: 1em;
     background-color: rgba(0, 0, 0, .29);
   }
 
@@ -852,12 +865,12 @@ li.list-item-link.menu-link:hover > a {
     padding: 2em 13em;
   }
 
-  body > .row.row-10 {
-    max-width: none;
+  body > .row > [class*='small-'].column-3 {
+    padding: 2em 13em;
   }
 
-  body > .row > [class*='small-'].column-9 {
-    padding: 2em 13em;
+  body > .row.row-4 {
+    max-width: none;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
@@ -890,33 +903,35 @@ li.list-item-link.menu-link:hover > a {
        -moz-transition-duration: .2s;
          -o-transition-duration: .2s;
             transition-duration: .2s;
+    -webkit-transform: translateZ(0px) translateY(0px) translateX(0px) perspective(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+       -moz-transform: translateZ(0px) translateY(0px) translateX(0px) perspective(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
+            transform: translateZ(0px) translateY(0px) translateX(0px) perspective(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skewX(0deg) skewY(0deg);
 
     background-blend-mode: normal;
   }
 
-  .subgrid > .row > [class*='small-'].subgrid-column-13 {
+  .subgrid > .row > [class*='small-'].subgrid-column-12 {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 2em;
     min-height: 22em;
-    background-image: url('../webpage2018/imacmockupmedium.jpeg');
+    background-image: url('../webpage2018/summercardsmedium.jpeg');
     background-attachment: scroll;
-    background-position: 20% center;
+    background-position: left top;
     background-clip: border-box;
     background-origin: padding-box;
-    background-size: cover;
+    background-size: auto auto;
     background-repeat: no-repeat;
 
     background-blend-mode: normal;
   }
 
-  .subgrid > .row > [class*='small-'].subgrid-column-14 {
-    padding-top: 1em;
-    padding-right: 4em;
+  .subgrid > .row > [class*='small-'].subgrid-column-15 {
+    padding-right: 0;
     padding-left: 0;
     min-height: 22em;
-    background-image: url('../webpage2018/summercardsmedium.jpeg');
+    background-image: url('../webpage2018/imacmockupmedium.jpeg');
     background-attachment: scroll;
-    background-position: 20% center;
+    background-position: center center;
     background-clip: border-box;
     background-origin: padding-box;
     background-size: cover;
@@ -950,6 +965,7 @@ li.list-item-link.menu-link:hover > a {
     float: none;
     margin-top: 2em;
     padding-top: .2em;
+    padding-left: 0;
     background-color: rgba(0, 0, 0, .29);
   }
 
