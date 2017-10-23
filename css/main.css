@@ -550,6 +550,11 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 7em;
   }
 
+  body > .row > [class*='small-'].column-9 {
+    padding-right: 7em;
+    padding-left: 7em;
+  }
+
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
     padding: 1em 2rem;
     background-color: #323232;
@@ -604,6 +609,26 @@ li.list-item-link.menu-link:hover > a {
     padding-top: 1em;
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-14 {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 14em;
+    background-image: url('../webpage2018/summercardsmedium.jpeg');
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row.subgrid-row-1 {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-8 {
@@ -827,13 +852,12 @@ li.list-item-link.menu-link:hover > a {
     padding: 2em 13em;
   }
 
-  body > .row.row-4 {
+  body > .row.row-10 {
     max-width: none;
   }
 
-  body > .row > [class*='small-'].column-3 {
-    padding-right: 13em;
-    padding-left: 13em;
+  body > .row > [class*='small-'].column-9 {
+    padding: 2em 13em;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
@@ -870,29 +894,29 @@ li.list-item-link.menu-link:hover > a {
     background-blend-mode: normal;
   }
 
-  .subgrid > .row > [class*='small-'].subgrid-column-11 {
+  .subgrid > .row > [class*='small-'].subgrid-column-13 {
+    padding-right: 0;
+    padding-left: 0;
+    min-height: 22em;
+    background-image: url('../webpage2018/imacmockupmedium.jpeg');
+    background-attachment: scroll;
+    background-position: 20% center;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-'].subgrid-column-14 {
     padding-top: 1em;
     padding-right: 4em;
     padding-left: 0;
     min-height: 22em;
     background-image: url('../webpage2018/summercardsmedium.jpeg');
     background-attachment: scroll;
-    background-position: left top;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto auto;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
-  .subgrid > .row > [class*='small-'].subgrid-column-12 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 22em;
-    background-image: url('../webpage2018/imacmockupmedium.jpeg');
-    background-attachment: scroll;
-    background-position: left center;
+    background-position: 20% center;
     background-clip: border-box;
     background-origin: padding-box;
     background-size: cover;
@@ -927,12 +951,6 @@ li.list-item-link.menu-link:hover > a {
     margin-top: 2em;
     padding-top: .2em;
     background-color: rgba(0, 0, 0, .29);
-
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 0;
-       -moz-box-flex: 0;
-        -ms-flex: 0 0;
-            flex: 0 0;
   }
 
   .container.container-4 {
