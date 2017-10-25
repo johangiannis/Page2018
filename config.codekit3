@@ -27,6 +27,16 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/css\/foundation-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/foundation-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/foundation.css": {
 		"aP": 1,
 		"bl": 0,
@@ -34,6 +44,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/foundation-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/foundation.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/foundation.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -47,6 +67,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -57,6 +87,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/wireframe-theme-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/wireframe-theme-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/wireframe-theme.css": {
 		"aP": 1,
 		"bl": 0,
@@ -64,6 +104,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/wireframe-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/css\/wireframe-theme.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/wireframe-theme.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -127,6 +177,16 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/core-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/core-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/core.js": {
 		"ft": 64,
 		"ma": 0,
@@ -137,12 +197,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/foundation-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/foundation-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/foundation.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/foundation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/foundation.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/foundation.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -167,6 +247,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/jquery.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/jquery.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -183,12 +273,32 @@
 		"oAP": "\/js\/jquery.min.map",
 		"oF": 0
 		},
+	"\/js\/jquery.slim-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.slim-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/jquery.slim.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.slim-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/jquery.slim.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.slim.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -219,12 +329,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/outofview-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/outofview-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/outofview.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/outofview-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/picturefill-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/picturefill-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -239,6 +369,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/picturefill.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/picturefill.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/picturefill.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -249,12 +389,32 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/what-input-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/what-input-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/what-input.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/what-input-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/what-input.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/what-input.min-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -432,6 +592,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/webpage2018\/falltreesmedium.jpg": {
+		"ft": 16384,
+		"iS": 131415,
+		"oA": 0,
+		"oAP": "\/webpage2018\/falltreesmedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/webpage2018\/grafiskhero.jpeg": {
 		"ft": 16384,
 		"iS": 340622,
@@ -440,6 +610,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/webpage2018\/grafiskhero.jpg": {
+		"ft": 16384,
+		"iS": 335408,
+		"oA": 0,
+		"oAP": "\/webpage2018\/grafiskhero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/webpage2018\/imacmockupmedium.jpeg": {
@@ -452,6 +632,16 @@
 		"opt": 1,
 		"q": 80
 		},
+	"\/webpage2018\/imacmockupmedium.jpg": {
+		"ft": 16384,
+		"iS": 74190,
+		"oA": 0,
+		"oAP": "\/webpage2018\/imacmockupmedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/webpage2018\/karlstadview.jpeg": {
 		"ft": 16384,
 		"iS": 222693,
@@ -460,6 +650,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/webpage2018\/karlstadview.jpg": {
+		"ft": 16384,
+		"iS": 214292,
+		"oA": 0,
+		"oAP": "\/webpage2018\/karlstadview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/webpage2018\/pic01.jpg": {
@@ -493,6 +693,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/webpage2018\/summercardsmedium.jpg": {
+		"ft": 16384,
+		"iS": 41192,
+		"oA": 0,
+		"oAP": "\/webpage2018\/summercardsmedium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/webpage2018\/sundownboatsmall.jpeg": {
 		"ft": 16384,
 		"iS": 84754,
@@ -501,6 +711,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/webpage2018\/sundownboatsmall.jpg": {
+		"ft": 16384,
+		"iS": 81990,
+		"oA": 0,
+		"oAP": "\/webpage2018\/sundownboatsmall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		}
 	},
@@ -513,7 +733,7 @@
 	"displayValue": "Page2018",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-trap",
-	"lastBuiltDate": 530473095
+	"lastBuiltDate": 530642843
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
