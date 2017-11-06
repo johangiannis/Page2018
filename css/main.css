@@ -101,39 +101,6 @@ body > .row > [class*='small-'].column-8 {
   padding-left: 2em;
 }
 
-body > .row > [class*='small-'].column-6 {
-  padding-right: .625rem;
-  min-height: 12em;
-  background-image: url('../webpage2018/falltreesmedium.jpeg');
-  background-attachment: scroll;
-  background-position: right center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(.3) brightness(1.18);
-          filter: grayscale(.3) brightness(1.18);
-
-  background-blend-mode: normal;
-}
-
-body > .row > [class*='small-'].column-5 {
-  padding-right: 0;
-  padding-left: 0;
-  min-height: 12em;
-  background-image: url('../webpage2018/sundownboatsmall.jpeg');
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-filter: grayscale(.34);
-          filter: grayscale(.34);
-
-  background-blend-mode: normal;
-}
-
 body > .row > [class*='small-']#grafiskherobild {
   background-image: url('../webpage2018/grafiskhero.jpeg');
 }
@@ -311,15 +278,14 @@ li.list-item-link.menu-link:hover > a {
     color: #f0f6ff;
     text-align: center;
     font-weight: 300;
-    font-size: 3em;
+    font-size: 3.5em;
     font-family: 'Roboto', cursive;
 
     mix-blend-mode: normal;
   }
 
   h1.heading-3 {
-    margin-top: .1em;
-    padding-left: 0;
+    margin-top: .3em;
     color: #fff;
     font-weight: 300;
     font-size: 2em;
@@ -431,7 +397,7 @@ li.list-item-link.menu-link:hover > a {
   /* Layout Elements */
 
   body > .row > [class*='small-'].column-1 {
-    min-height: 25em;
+    min-height: 28em;
     background-image: url('../webpage2018/pic01.jpg');
     background-attachment: scroll;
     background-position: center center;
@@ -477,40 +443,6 @@ li.list-item-link.menu-link:hover > a {
     max-width: none;
   }
 
-  body > .row > [class*='small-'].column-6 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/falltreesmedium.jpeg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-filter: brightness(1.18) contrast(.97) grayscale(.3) sepia(0);
-            filter: brightness(1.18) contrast(.97) grayscale(.3) sepia(0);
-
-    background-blend-mode: normal;
-  }
-
-  body > .row > [class*='small-'].column-5 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/sundownboatsmall.jpeg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-filter: grayscale(.34);
-            filter: grayscale(.34);
-
-    background-blend-mode: normal;
-  }
-
   body > .row > [class*='small-']#grafiskherobild {
     background-image: url('../webpage2018/grafiskhero.jpeg');
   }
@@ -554,7 +486,14 @@ li.list-item-link.menu-link:hover > a {
   }
 
   body > .row > [class*='small-'].column-3 {
-    padding: 1em 7em;
+    padding: 2em 7em;
+  }
+
+  body > .row > [class*='small-'].column-4 {
+    float: none;
+    clear: none;
+    padding-right: 7em;
+    padding-left: 7em;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
@@ -616,7 +555,7 @@ li.list-item-link.menu-link:hover > a {
   .subgrid > .row > [class*='small-'].subgrid-column-8 {
     padding-top: 0;
     padding-right: 0;
-    padding-left: 4em;
+    padding-left: 0;
     min-height: 18em;
     background-image: url('../webpage2018/airplane.jpg');
     background-attachment: scroll;
@@ -630,14 +569,9 @@ li.list-item-link.menu-link:hover > a {
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-12 {
-    position: relative;
-    float: left;
-    margin-right: 0;
-    margin-left: 0;
     padding-right: 0;
     padding-left: 2em;
     min-height: 18em;
-    border-right: .375rem solid #fff;
     background-image: url('../webpage2018/summercardsmedium.jpeg');
     background-attachment: scroll;
     background-position: center center;
@@ -645,19 +579,14 @@ li.list-item-link.menu-link:hover > a {
     background-origin: padding-box;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-transform: translateX(0px) translateY(0px) perspective(0em) scaleX(1);
-       -moz-transform: translateX(0px) translateY(0px) perspective(0em) scaleX(1);
-            transform: translateX(0px) translateY(0px) perspective(0em) scaleX(1);
 
     background-blend-mode: normal;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-15 {
-    margin-left: 0;
     padding-right: 0;
     padding-left: 0;
     min-height: 18em;
-    border-left: .375rem solid #fff;
     background-image: url('../webpage2018/imacmockupmedium.jpeg');
     background-attachment: scroll;
     background-position: center center;
@@ -665,11 +594,12 @@ li.list-item-link.menu-link:hover > a {
     background-origin: padding-box;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-transform: scaleX(1) translateX(0px) translateY(0px) translateZ(0px);
-       -moz-transform: scaleX(1) translateX(0px) translateY(0px) translateZ(0px);
-            transform: scaleX(1) translateX(0px) translateY(0px) translateZ(0px);
 
     background-blend-mode: normal;
+  }
+
+  .subgrid > .row > [class*='small-']#subgrid-column-1 {
+    background-image: url('../webpage2018/sundownboatsmall.jpeg');
   }
 
   .container.container-1 {
@@ -708,9 +638,16 @@ li.list-item-link.menu-link:hover > a {
     background-color: rgba(0, 0, 0, .29);
   }
 
+  .container.container-3 {
+    float: left;
+    width: 4em;
+  }
+
   .container.container-4 {
     margin-top: 2em;
+    margin-right: 8em;
     padding-top: .2em;
+    padding-right: 0;
     padding-left: 2em;
     background-color: rgba(0, 0, 0, .29);
   }
@@ -749,7 +686,7 @@ li.list-item-link.menu-link:hover > a {
     color: #f0f6ff;
     text-align: center;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Roboto', cursive;
   }
 
@@ -761,6 +698,25 @@ li.list-item-link.menu-link:hover > a {
   li.list-item-link.menu-link > a {
     font-size: .8em;
     font-family: 'Raleway', cursive;
+  }
+
+  a.glyph.font-icon-link-1 {
+    float: none;
+    width: 1em;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
+    font-size: 2.5em;
+    -webkit-transform: scaleX(1);
+       -moz-transform: scaleX(1);
+         -o-transform: scaleX(1);
+            transform: scaleX(1);
+
+    background-blend-mode: normal;
   }
 }
 
@@ -798,7 +754,7 @@ li.list-item-link.menu-link:hover > a {
   p.paragraph.paragraph-2 {
     margin-bottom: 1em;
     margin-left: 0;
-    padding-bottom: .2em;
+    padding-bottom: .5em;
     padding-left: 20px;
     color: #fff;
     font-weight: 300;
@@ -837,40 +793,6 @@ li.list-item-link.menu-link:hover > a {
     padding-left: 13em;
   }
 
-  body > .row > [class*='small-'].column-6 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/falltreesmedium.jpeg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
-  body > .row > [class*='small-'].column-5 {
-    padding-right: 0;
-    padding-left: 0;
-    min-height: 24em;
-    background-image: url('../webpage2018/sundownboatsmall.jpeg');
-    background-attachment: scroll;
-    background-position: center 30%;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
-  body > .row.row-7 {
-    max-width: none;
-  }
-
   body > .row > [class*='small-']#grafiskherobild {
     background-position: center top;
     background-size: cover;
@@ -883,15 +805,19 @@ li.list-item-link.menu-link:hover > a {
   }
 
   body > .row > [class*='small-'].column-7 {
-    padding: 2em 13em 1em;
+    padding: 2em 13em;
   }
 
   body > .row > [class*='small-'].column-3 {
-    padding: 1em 13em 2em;
+    padding: 2em 13em;
   }
 
   body > .row.row-4 {
     max-width: none;
+  }
+
+  body > .row > [class*='small-'].column-1 {
+    min-height: 28em;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
