@@ -27,14 +27,14 @@
       </div>
       <div class="container topbar-responsive-links" id="topbar-responsive" data-animate="fade-in fade-out">
         <div class="container top-bar-right">
-          <ul class="link-list menu simple vertical medium-horizontal">
-            <li class="list-item-link menu-link"><a href="grafiskformgivning.html">Grafisk formgiving</a>
+          <ul class="link-list menu simple vertical medium-horizontal" data-magellan="">
+            <li class="list-item-link menu-link"><a href="#grafiskformgivning">Grafisk formgiving</a>
             </li>
             <li class="list-item-link menu-link"><a href="#">Webbdesign</a>
             </li>
             <li class="list-item-link menu-link"><a href="#">Foto</a>
             </li>
-            <li class="list-item-link menu-link"><a href="#">Musik</a>
+            <li class="list-item-link menu-link" data-magellan="musik"><a href="#musik">Musik</a>
             </li>
           </ul>
         </div>
@@ -71,7 +71,7 @@
     </div>
   </div>
   <div class="row row-3">
-    <div class="columns small-12 column-2 large-12 medium-12">
+    <div class="columns small-12 column-2 large-12 medium-12" data-magellan-target="grafiskformgivning" id="grafiskformgivning">
       <div class="subgrid">
         <div class="row">
           <div class="columns small-12 subgrid-column-3">
@@ -171,7 +171,7 @@
     </div>
   </div>
   <div class="row row-8">
-    <div class="columns small-12 column-7">
+    <div class="columns small-12 column-7" id="musik" data-magellan-target="musik">
       <div class="subgrid">
         <div class="row">
           <div class="columns small-12 subgrid-column-8" id="subgrid-column-1">

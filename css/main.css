@@ -799,9 +799,11 @@ li.list-item-link.menu-link:hover > a {
   }
 
   body > .row > [class*='small-'].top-bar.top-bar-responsive {
+    overflow: visible;
     padding-right: 6em;
     padding-left: 6em;
     background-color: #161616;
+    vertical-align: baseline;
   }
 
   body > .row > [class*='small-'].column-7 {
