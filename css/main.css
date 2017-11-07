@@ -356,7 +356,7 @@ li.list-item-link.menu-link:hover > a {
   ul.link-list.medium-horizontal.menu.simple.vertical {
     -ms-flex-pack: start;
     -ms-flex-align: center;
-    background-color: #161616;
+    background-color: transparent;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -374,6 +374,7 @@ li.list-item-link.menu-link:hover > a {
   /* Common Elements */
 
   .placeholder-hero.hero-unit-1 {
+    margin-top: 3em;
     padding-top: 5em;
     padding-left: 0;
     background-color: transparent;
@@ -448,20 +449,30 @@ li.list-item-link.menu-link:hover > a {
   }
 
   body > .row.row-1 {
+    position: fixed;
+    top: auto;
+    z-index: 999;
+    min-width: 100%;
     max-width: none;
   }
 
   body > .row > [class*='small-'].top-bar.top-bar-responsive {
     position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display:    -moz-box;
     display: -ms-flexbox;
     display:         flex;
     -ms-flex-pack: justify;
+    float: left;
     -ms-flex-align: center;
     padding: 1em 7em;
-    background-color: #161616;
+    background-color: rgba(22, 22, 22, .29);
 
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -762,6 +773,16 @@ li.list-item-link.menu-link:hover > a {
     font-family: 'Roboto', cursive;
   }
 
+  ul.link-list.medium-horizontal.menu.simple.vertical {
+    background-color: transparent;
+  }
+
+  /* Common Elements */
+
+  .placeholder-hero.hero-unit-1 {
+    margin-top: 3em;
+  }
+
   /* Interaction Elements */
 
   a.link-button.button {
@@ -802,7 +823,7 @@ li.list-item-link.menu-link:hover > a {
     overflow: visible;
     padding-right: 6em;
     padding-left: 6em;
-    background-color: #161616;
+    background-color: rgba(22, 22, 22, .29);
     vertical-align: baseline;
   }
 
@@ -819,7 +840,7 @@ li.list-item-link.menu-link:hover > a {
   }
 
   body > .row > [class*='small-'].column-1 {
-    min-height: 28em;
+    min-height: 30em;
   }
 
   .subgrid > .row > [class*='small-'].subgrid-column-1 {
